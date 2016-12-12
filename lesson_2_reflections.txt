@@ -1,0 +1,38 @@
+﻿What happens when you initialize a repository? Why do you need to do it?
+
+	When a repository is created and 'git log' is used it can be
+	seen that the directory is not commited and needs to be comitted
+	manually. This is done so that person can remove the files they
+	do not want to commit. 'git status' command can also be run to
+	see the status of files.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+	Staging area consists of files which are ready to be commited. Staging
+	area lets us add the files which we want to commit rather than whole
+	directory.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+	After doing one logical change the file may be added to staging area and then later be commited after comapring the differences.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+	Branches can be helpful when we want to add some experimental features to our project. Master branch can be used for the project while some development can go on in the side branch.
+
+How do the diagrams help you visualize the branch structure?
+
+	Whole branch can be drawn in diagrams. These diagrams help in seeing where new branches were added and what changes were made in each branch.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+	Two branches merge into one. Changes from each of previous commits which were not in the parent of both gets added in the new Merged parent. We represent  it that way beacuse 2 branches merge into one.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+	git's automatic merging is really good as it removes the need to see though all the code and manually merge it. It compares files with the original file and notifies us in case of conflicts. Although in many situations it does not know what to do.
