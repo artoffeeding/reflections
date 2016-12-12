@@ -1,0 +1,54 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+	Each and every diff between the two versions was shown it would have
+	been a difficult task to find out styles!.css and style1.css without
+	using diff. Above all diff shows + - of lines, lines which were added
+	and which were deleted. That helped in spoting the difference.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+	Having entire history of a file can be very helpful. It can surely
+	show what were the previous versions of the file that did'nt work
+	or which of the precious versions worked correctly. It can help
+	comparing the previous versions with current one.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+	Manual saving method enables us to save when we want but this can be
+	a problem if we forget to save for long time. Manual saving should
+	be done after every logical change, forgetting to do so  will mean
+	that the person will have to commit multiple logical changes at once.
+	Also automatically saving can create too many saved versions and many
+	of them wont even work properly beacuse they were uncomplete code.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+	Because git is a code version-control system, any changes in one file
+	will possibly have effects on multiple files thus allowing multiple files
+	to be saved at once is quite nice. On the other hand google docs treat
+	each file separately because they are normal docs and normally not related
+	to each other.
+
+How can you use the commands git log and git diff to view the history of files?
+
+	To use git log, just type 'git log' in git bash and press enter, it
+	shows all the logs just keep pressing 'Down Arrow' till you find the log
+	you were looking for, press 'Q' to quit out of log history. For using git
+	diff, the syntax is 'git diff first_id second_id' green lines were added
+	and red lines were removed. 'git diff' shows difference between 2 versions
+	of files. 
+
+How might using version control make you more confident to make changes that
+could break something?
+
+	Because we would know that previous working version is still safe with us.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+	I want to try out the things that I learned about git in action and I
+	also wanna see how much of help git can be.
