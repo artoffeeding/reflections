@@ -7,24 +7,40 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    Because someone else working on the same project might make some
+    changes of which we are unaware and automatic pull might change
+    out file with the one from remote repository leading to loss of
+    our copy(if it was not commited) and confusion.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    Clone is used when  one of our repository is to be pushed or pulled to/from
+    github. Forks is done when we use someone else's repository, who have not
+    given us remote access to the repository. Branching is done when some side
+    projects are carried out which working on some project,
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    Having last state of remote stored locally will make sure that less
+    amount of new branches are made by each person working on the project.
+    
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    I think if github or git was not there then things would become a lot
+    complicated. One or two previous stable versions will need to be saved
+    manually in different folders.For sharing projects with someone else
+    everything needs to be communicated manually and whole project may
+    be needed to send again and again.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    If one among all people working on some project decides to add certain
+    featuers to the project then they may think of making changes in a separate
+    branch rather than working directly as it will ensure that the project on the
+    main branch does not break and also that other people can have a chance to
+    look at the changes before they are introduced in the project. 
